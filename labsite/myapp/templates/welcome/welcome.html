@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My site</title>
+</head>
+<body>
+    <h1>Добро пожаловать, {{ username }}</h1>
+    <form action="{% url 'index' %}" method="get">
+        <button>Список задач</button>
+    </form>
+</body>
+</html>
